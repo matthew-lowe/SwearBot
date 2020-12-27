@@ -1,3 +1,5 @@
-* SwearBot
-*** Automatically remove profanity 
-  That's it I'm afraid lol
+# SwearBot
+
+## Automatically remove profanity 
+
+That's it
