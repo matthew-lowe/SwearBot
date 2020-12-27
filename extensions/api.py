@@ -35,4 +35,4 @@ class API(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(API(bot, "AIzaSyAhjVOb95ojQ__2CW9xy86DVFvynTeCtvA"))
+    bot.add_cog(API(bot, json.loads(open("config.json").read())["api-key"]))

@@ -18,7 +18,6 @@ class BaseCommands(commands.Cog):
         score = await api.get_score(message.lower())
 
         if score is None:
-            await ctx.send("rate limit dufus!")
             print("rate limited!")
             return
 
